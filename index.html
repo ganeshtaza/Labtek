@@ -1494,7 +1494,40 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+  <!-- Floating WhatsApp Button -->
 
+<a href="https://wa.me/9004183060" class="whatsapp-float" target="_blank" rel="noopener noreferrer"> 
+<img  src="assets/img/WA.png" width="50" height="50" />
+<a />
+
+<style>
+  .whatsapp-float {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 70px;
+    right: 10px;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    //box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .whatsapp-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .whatsapp-float:hover {
+    background-color: #128c7e;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+</style>
 </body>
 
 </html>
